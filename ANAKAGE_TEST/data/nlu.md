@@ -263,8 +263,9 @@
 ## intent: not_satisfied_printer_queue
 - not satisfied printer queue
 - printer queue solution not satisfied
-- printer job stuck to solve the solution not satisfied.
+- printer job stuck to solve the solution not satisfied
 - need to create the incident for printer queue problem
+- solution for printer job not satisfied
 
 ## intent: not_satisfied_printer_spooler
 - not satisfied printer spooler
