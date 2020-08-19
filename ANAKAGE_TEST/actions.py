@@ -67,7 +67,7 @@ class AdobeReader(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        with open('E:\\ANAKAGE_TEST\\InputJSON\\AdobeReaderExplorer.json', 'r') as myfile:
+        with open('E:\\ISL\\Anakage_Ticket_Raise\\ANAKAGE_TEST\\InputJSON\\AdobeReaderExplorer.json', 'r') as myfile:
             data = myfile.read()
             email_value = tracker.get_slot("username")
             print("EmailID++++++++++++++" + email_value)
@@ -96,7 +96,7 @@ class ArchiveFile(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        with open('E:\\ANAKAGE_TEST\\InputJSON\\ArchiveFile.json', 'r') as myfile:
+        with open('E:\\ISL\\Anakage_Ticket_Raise\\ANAKAGE_TEST\\InputJSON\\ArchiveFile.json', 'r') as myfile:
             data = myfile.read()
             email_value = tracker.get_slot("username")
             print("EmailID++++++++++++++" + email_value)
@@ -125,7 +125,7 @@ class CleanTemp(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        with open('E:\\ANAKAGE_TEST\\InputJSON\\CleanTempMobility.json', 'r') as myfile:
+        with open('E:\\ISL\\Anakage_Ticket_Raise\\ANAKAGE_TEST\\InputJSON\\CleanTempMobility.json', 'r') as myfile:
             data = myfile.read()
             email_value = tracker.get_slot("username")
             print("EmailID++++++++++++++" + email_value)
@@ -154,7 +154,7 @@ class CleanUpExplorer(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        with open('E:\\ANAKAGE_TEST\\InputJSON\\CleanUpExplorer.json', 'r') as myfile:
+        with open('E:\\ISL\\Anakage_Ticket_Raise\\ANAKAGE_TEST\\InputJSON\\CleanUpExplorer.json', 'r') as myfile:
             data = myfile.read()
             email_value = tracker.get_slot("username")
             print("EmailID++++++++++++++" + email_value)
@@ -183,7 +183,7 @@ class Popup(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        with open('E:\\ANAKAGE_TEST\\InputJSON\\PopUpExplorer.json', 'r') as myfile:
+        with open('E:\\ISL\\Anakage_Ticket_Raise\\ANAKAGE_TEST\\InputJSON\\PopUpExplorer.json', 'r') as myfile:
             data = myfile.read()
             email_value = tracker.get_slot("username")
             print("EmailID++++++++++++++" + email_value)
@@ -212,7 +212,7 @@ class RecoverEmail(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        with open('E:\\ANAKAGE_TEST\\InputJSON\\RecoverEmail.json', 'r') as myfile:
+        with open('E:\\ISL\\Anakage_Ticket_Raise\\ANAKAGE_TEST\\InputJSON\\RecoverEmail.json', 'r') as myfile:
             data = myfile.read()
             email_value = tracker.get_slot("username")
             print("EmailID++++++++++++++" + email_value)
@@ -241,7 +241,7 @@ class PrinterIssue(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        with open('E:\\ANAKAGE_TEST\\InputJSON\\Printerissue.json', 'r') as myfile:
+        with open('E:\\ISL\\Anakage_Ticket_Raise\\ANAKAGE_TEST\\InputJSON\\Printerissue.json', 'r') as myfile:
             data = myfile.read()
             email_value = tracker.get_slot("username")
             print("EmailID++++++++++++++" + email_value)
